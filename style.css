@@ -876,7 +876,7 @@ ul {
     }
 
     .filter-button-type, .filter-button-resistant, .filter-button-weaknesses{
-        width:15%;
+        width:18%;
         padding:2%;
         }
 
@@ -885,10 +885,28 @@ ul {
     }
 
     #pokemon-search {
+        width: 50%;
+    }
+
+    #order {
         width: 40%;
     }
-   
+  
+   .disabled-order {
+      visibility:hidden;
+    }
+
+    #search-reset, #order-button, #filters-button {
+        width: 23%;
+    }
+
+    #open-glossary{
+        position:fixed;
+        top: 25%;
+    }
+
 }
+
 
 /*RESPONSIVIDADE MOBILE*/
 @media screen and (max-width: 540px) {
@@ -963,6 +981,9 @@ ul {
     
       #search-reset {
       width: 35%;
+    }
+    .disabled-order {
+      visibility:hidden;
     }
     
     .main-filter {
@@ -1105,6 +1126,9 @@ ul {
       #order {
         width: 50%;
       }
+    .disabled-order {
+      visibility:hidden;
+    }
 
       #filter-by-resistant-button, #filter-by-weaknesses-button, #filter-by-advanced-search {
         width: 30%;
@@ -1237,6 +1261,9 @@ ul {
 
     #order {
         width: 50%;
+    }
+    .disabled-order {
+      visibility:hidden;
     }
 
     #search-reset {
